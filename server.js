@@ -11,6 +11,8 @@ app.get('/about',function(req,res){
   res.sendFile(__dirname+'/about.html');
   
 });
+app.get('/email',function(req,res){
+  res.sendFile(__dirname+'/email.html');
 
 
 
